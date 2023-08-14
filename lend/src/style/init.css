@@ -1,0 +1,33 @@
+@import './_resetStyle.css';
+@import './_text.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root{
+    --main-white: #fff;
+    --main-white-transponent:rgba(255, 255, 255, 0.25);
+    --main-gray: #8F8F8F;
+    --main-gray-transponent: rgba(143, 143, 143, 0.25);
+    --main-black: #262626;
+    --main-pink: #F29C9B;
+    --main-pink-transponent: rgba(242, 156, 155, 0.25);
+}
+
+body{
+    background-color: var(--main-black);
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+@media (max-width: 820px) {
+    .container{
+        max-width: 100%;
+        padding-inline: calc(20 / 640 * 100vw);
+    }
+}

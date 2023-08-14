@@ -1,0 +1,21 @@
+{
+    "Components":{
+        "UI":{
+            "Buttons":{
+
+            },
+            "Links":{
+
+            },
+            "MainSection":{
+                "HeaderSection":{
+                    "ProfessionalProfile": "Professional Profile",
+                    "ExperienceInOilCompanies":{
+                        "main": "Experience in oil companies",
+                        "subtitle": "Experience was gained in such companies as Tatneft, Rosneft, Schlumberger, Sinopek"
+                    }
+                }
+            }
+        }
+    }
+}

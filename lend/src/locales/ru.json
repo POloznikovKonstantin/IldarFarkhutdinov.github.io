@@ -1,0 +1,21 @@
+{
+    "Components":{
+        "UI":{
+            "Buttons":{
+
+            },
+            "Links":{
+
+            },
+            "MainSection":{
+                "HeaderSection":{
+                    "ProfessionalProfile": "Профессиональный профиль",
+                    "ExperienceInOilCompanies":{
+                        "main": "Опыт работы в нефтяных компаниях",
+                        "subtitle": "Работал в таких компаниях как Татнефть, Роснефть, Schlumberger, Sinopek"
+                    }
+                }
+            }
+        }
+    }
+}
