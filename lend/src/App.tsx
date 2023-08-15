@@ -1,19 +1,17 @@
 import React, {FC, useEffect} from 'react';
 import {useTranslation} from 'react-i18next';
-import {MainLink} from "./components/UI/Links/MainLinks/MainLink";
+import AppTest from "./AppTest";
 
-export const App:FC = () => {
-  const {i18n} = useTranslation();
+export const App: FC = () => {
+    const {i18n} = useTranslation();
 
-  useEffect(() => {
-    i18n.changeLanguage('RU')
-  }, [i18n])
+    useEffect(() => {
+        i18n.changeLanguage('EN')
+    }, [i18n])
 
-  return (
-    <main className='container'>
-      <MainLink href={'/#'}>
-          Components.UI.Buttons.MainButtons.OpenGitHub
-      </MainLink>
-    </main>
-  )
+    return (
+        <main className='container'>
+            <AppTest/>
+        </main>
+    )
 }
