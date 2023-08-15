@@ -2,10 +2,19 @@
     "Components":{
         "UI":{
             "Buttons":{
-
+                "MainButtons": {
+                    "OpenGitHub": "Open GitHub"
+                }
             },
             "Links":{
-
+                "DropDownLinks": {
+                    "Education": {
+                        "main": "Education",
+                        "section1": "University",
+                        "section2": "Courses",
+                        "section3": "IT courses"
+                    }
+                }
             },
             "MainSection":{
                 "HeaderSection":{

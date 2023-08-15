@@ -2,10 +2,19 @@
     "Components":{
         "UI":{
             "Buttons":{
-
+                "MainButtons": {
+                    "OpenGitHub": "Посмотреть на GitHub"
+                }
             },
             "Links":{
-
+                "DropDownLinks": {
+                    "Education": {
+                        "main": "Образование",
+                        "section1": "Высшие образование",
+                        "section2": "Курсы",
+                        "section3": "IT Курсы"
+                    }
+                }
             },
             "MainSection":{
                 "HeaderSection":{

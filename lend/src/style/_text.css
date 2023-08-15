@@ -28,11 +28,11 @@
 
 @media (max-width: 420px) {
     .header-text{
-        font-size: calc(48 / 390 * 100vw);
+        font-size: calc(32 / 390 * 100vw);
     }
 
     .subtitle-text{
-        font-size: calc(32 / 390 * 100vw);
+        font-size: calc(24 / 390 * 100vw);
     }
 
     .paragraph-text{
