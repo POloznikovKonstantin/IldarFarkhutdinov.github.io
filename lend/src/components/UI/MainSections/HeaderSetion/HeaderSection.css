@@ -9,7 +9,6 @@
 
 .lattice-span{
     color: var(--main-pink);
-    margin-right: calc(5 / 1920 * 100vw);
 }
 
 .header-section__svg{
@@ -19,10 +18,6 @@
 @media (max-width: 820px) {
     .header-section__content{
         margin-top: calc(10 / 640 * 100vw);
-    }
-
-    .lattice-span{
-        margin-right: calc(5 / 640 * 100vw);
     }
 
     .header-section__svg{
@@ -35,7 +30,4 @@
         margin-top: calc(10 / 420 * 100vw);
     }
 
-    .lattice-span{
-        margin-right: calc(5 / 420 * 100vw);
-    }
 }
