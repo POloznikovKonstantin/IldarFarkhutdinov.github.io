@@ -16,6 +16,14 @@
                     }
                 }
             },
+            "CardProject":{
+                "Projects":{
+                    "NameHeader": "Название проекта",
+                    "Description": "Некое описание проекта",
+                    "Stack":"Стек разработки"
+                }
+                
+            },
             "MainSection":{
                 "HeaderSection":{
                     "ProfessionalProfile": "Профессиональный профиль",

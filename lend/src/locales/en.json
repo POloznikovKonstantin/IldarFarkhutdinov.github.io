@@ -16,6 +16,13 @@
                     }
                 }
             },
+            "CardProject":{
+                    "Projects":{
+                        "NameHeader": "Project name",
+                        "Description": "Description project",
+                        "Stack": "Stack dev"
+                    }
+            },
             "MainSection":{
                 "HeaderSection":{
                     "ProfessionalProfile": "Professional Profile",
