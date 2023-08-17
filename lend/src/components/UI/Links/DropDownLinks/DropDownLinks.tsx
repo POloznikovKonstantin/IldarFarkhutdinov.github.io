@@ -3,7 +3,7 @@ import {IObjectLink} from "../../../../Types/types";
 import {useTranslation} from "react-i18next";
 import {WorkSvg} from "../../../../utils/WorkSvg";
 import './DropDownLinks.css';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 interface IDropDownLinks {

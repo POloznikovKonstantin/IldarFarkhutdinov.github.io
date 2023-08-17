@@ -19,7 +19,7 @@ export const App: FC = () => {
       {/* <MainLink href={'/#'}>
           Components.UI.Buttons.MainButtons.OpenGitHub
       </MainLink>*/}
-      <CardProject NameHeader={'Components.UI.Card.CardProject.ITProjects.NameHeader'} Description={'Components.UI.Card.CardProject.ITProjects.Description'} ImgLink={CardBg} Link={'/#'} Stack={'Components.UI.Card.CardProject.ITProjects.Stack'} />
+      <CardProject NameHeader='Components.UI.Card.CardProjects.NameHeader' Stack='Components.UI.Card.CardProjects.Stack' Description='Components.UI.Card.CardProjects.Description' Link='/#' ImgLink={CardBg}/>
       <CardProfessionalProfile CardHeader='Components.UI.Card.CardProfessionProfile.Profile.CardHeader' CardSubHeader='Components.UI.Card.CardProfessionProfile.Profile.CardSubHeader' CardDescription='Components.UI.Card.CardProfessionProfile.Profile.CardDescription'/>
     </main>
   )
