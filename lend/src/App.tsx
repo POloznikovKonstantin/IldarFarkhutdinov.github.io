@@ -6,6 +6,7 @@ import { HeaderSection } from './components/UI/MainSections/HeaderSetion/HeaderS
 import { DropDownLinks } from './components/UI/Links/DropDownLinks/DropDownLinks';
 import { CardBg } from './assets';
 import { CardProject } from './components/UI/Card/CardProject/CardProject';
+import { CardProfessionalProfile } from './components/UI/Card/CardProfesionalProfile/CardProfessionalProfile';
 
 
 
@@ -18,10 +19,11 @@ export const App:FC = () => {
 
   return (
     <main className='container'>
-      <MainLink href={'/#'}>
+      {/* <MainLink href={'/#'}>
           Components.UI.Buttons.MainButtons.OpenGitHub
       </MainLink>
-      <CardProject NameHeader={'Components.UI.CardProject.Projects.NameHeader'} Description={'Components.UI.CardProject.Projects.Description'} ImgLink={CardBg} Link={'/#'} Stack={'Components.UI.CardProject.Projects.Stack'} />
+      <CardProject NameHeader={'Components.UI.CardProject.Projects.NameHeader'} Description={'Components.UI.CardProject.Projects.Description'} ImgLink={CardBg} Link={'/#'} Stack={'Components.UI.CardProject.Projects.Stack'} />*/}
+      <CardProfessionalProfile/>
     </main>
   )
 }

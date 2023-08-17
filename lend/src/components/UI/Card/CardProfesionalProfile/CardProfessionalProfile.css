@@ -1,0 +1,10 @@
+ .card-prof-profile-bg {
+    position: relative;
+    width: calc(291/1920 * 100vw);
+    height: calc(330/1920 * 100vw);
+
+    border-radius: 20px;
+    border: 2px solid #8F8F8F;
+    background: rgba(38, 38, 38, 0.50);
+    backdrop-filter: blur(6.5px);
+ }
