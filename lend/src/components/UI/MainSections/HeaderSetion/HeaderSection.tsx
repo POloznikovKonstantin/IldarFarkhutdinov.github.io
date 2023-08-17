@@ -2,6 +2,7 @@ import React, {FC} from 'react';
 import {useTranslation} from 'react-i18next';
 import './HeaderSection.css';
 import {WorkSvg} from "../../../../utils/WorkSvg";
+import {MainLink} from "../../Links/MainLinks/MainLink";
 
 interface IHeaderSectionProps{
     header: string,
@@ -24,7 +25,7 @@ export const HeaderSection:FC<IHeaderSectionProps> = ({header, subTitle, classNa
                     <WorkSvg nameSvg={'RecTangle'}/>
                 </div>
             </div>
-
+            
             {
                 subTitle &&
                 <p className='paragraph-text header-section__subtitle'>

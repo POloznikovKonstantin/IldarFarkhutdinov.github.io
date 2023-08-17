@@ -1,21 +1,18 @@
 /* eslint-disable react/jsx-no-undef */
 import React, {FC, useEffect} from 'react';
 import {useTranslation} from 'react-i18next';
-import {MainLink} from "./components/UI/Links/MainLinks/MainLink";
-import { HeaderSection } from './components/UI/MainSections/HeaderSetion/HeaderSection';
-import { DropDownLinks } from './components/UI/Links/DropDownLinks/DropDownLinks';
 import { CardBg } from './assets';
 import { CardProject } from './components/UI/Card/CardProject/CardProject';
 import { CardProfessionalProfile } from './components/UI/Card/CardProfesionalProfile/CardProfessionalProfile';
 
 
 
-export const App:FC = () => {
-  const {i18n} = useTranslation();
+export const App: FC = () => {
+    const {i18n} = useTranslation();
 
-  useEffect(() => {
-    i18n.changeLanguage('RU')
-  }, [i18n])
+    useEffect(() => {
+        i18n.changeLanguage('EN')
+    }, [i18n])
 
   return (
     <main className='container'>
@@ -26,4 +23,5 @@ export const App:FC = () => {
       <CardProfessionalProfile CardHeader='Components.UI.Card.CardProfessionProfile.Profile.CardHeader' CardSubHeader='Components.UI.Card.CardProfessionProfile.Profile.CardSubHeader' CardDescription='Components.UI.Card.CardProfessionProfile.Profile.CardDescription'/>
     </main>
   )
+
 }
