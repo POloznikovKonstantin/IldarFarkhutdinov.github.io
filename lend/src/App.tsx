@@ -21,9 +21,9 @@ export const App:FC = () => {
     <main className='container'>
       {/* <MainLink href={'/#'}>
           Components.UI.Buttons.MainButtons.OpenGitHub
-      </MainLink>
-      <CardProject NameHeader={'Components.UI.CardProject.Projects.NameHeader'} Description={'Components.UI.CardProject.Projects.Description'} ImgLink={CardBg} Link={'/#'} Stack={'Components.UI.CardProject.Projects.Stack'} />*/}
-      <CardProfessionalProfile/>
+      </MainLink>*/}
+      <CardProject NameHeader={'Components.UI.Card.CardProject.ITProjects.NameHeader'} Description={'Components.UI.Card.CardProject.ITProjects.Description'} ImgLink={CardBg} Link={'/#'} Stack={'Components.UI.Card.CardProject.ITProjects.Stack'} />
+      <CardProfessionalProfile CardHeader='Components.UI.Card.CardProfessionProfile.Profile.CardHeader' CardSubHeader='Components.UI.Card.CardProfessionProfile.Profile.CardSubHeader' CardDescription='Components.UI.Card.CardProfessionProfile.Profile.CardDescription'/>
     </main>
   )
 }

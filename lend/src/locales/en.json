@@ -16,12 +16,21 @@
                     }
                 }
             },
-            "CardProject":{
+            "Card":{
+                "CardProject":{
                     "Projects":{
                         "NameHeader": "Project name",
                         "Description": "Description project",
                         "Stack": "Stack dev"
                     }
+                },
+                "CardProfessionProfile":{
+                    "Profile":{
+                        "CardHeader": "N year",
+                        "CardSubHeader": "Class",
+                        "CardDescription": "Description of the work experience card"
+                    }
+                }
             },
             "MainSection":{
                 "HeaderSection":{
