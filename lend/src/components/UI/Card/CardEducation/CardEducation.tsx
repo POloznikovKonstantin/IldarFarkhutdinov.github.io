@@ -4,15 +4,14 @@ import './CardEducation.css';
 import { useTranslation } from 'react-i18next';
 
 interface ICardEducation {
-    
+    imgLogo:string;
 }
 
-export const CardEducation:FC<ICardEducation> = () => {
+export const CardEducation:FC<ICardEducation> = ({imgLogo}) => {
     const {t} = useTranslation();
 
     return(
         <div className="card-education-bg">
-            <div className="absolute">
             <div className="card-education-header-conteiner">
                 <h3 className="subtitle-text">Заголовок</h3>
             </div>
@@ -20,12 +19,9 @@ export const CardEducation:FC<ICardEducation> = () => {
                 <p className="card-education-years-text">2004</p>
             </div>
             <div className="card-education-profession-conteiner">
-                <p className="pharagraph-text">gvhbjh</p>
+                <p className="pharagraph-text card-education-profession-text">sdsdfdsfsadfasdfadsfasfafdafassd</p>
             </div>
-            </div>
-            <div className="card-education-footer">
-                <img src="/#"/>
-            </div>
+            <img className="card-education-logo" src={imgLogo}/>
         </div>
     )
 }
