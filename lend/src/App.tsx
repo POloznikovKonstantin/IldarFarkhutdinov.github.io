@@ -22,7 +22,7 @@ export const App: FC = () => {
       </MainLink>*/}
       <CardProject NameHeader='Components.UI.Card.CardProject.ITProjects.NameHeader' Stack='Components.UI.Card.CardProject.ITProjects.Stack' Description='Components.UI.Card.CardProject.ITProjects.Description' Link='/#' ImgLink={CardBg}/>
       <CardProfessionalProfile CardHeader='Components.UI.Card.CardProfessionProfile.Profile.CardHeader' CardSubHeader='Components.UI.Card.CardProfessionProfile.Profile.CardSubHeader' CardDescription='Components.UI.Card.CardProfessionProfile.Profile.CardDescription'/>
-      <CardEducation imgLogo={HWULogo}/>
+      <CardEducation CardEducationHeader='Components.UI.Card.CardEducation.Education.CardEducationHeader' CardEducationYears='Components.UI.Card.CardEducation.Education.CardEducationYears' CardEducationProfession='Components.UI.Card.CardEducation.Education.CardEducationProfession' imgLogo={HWULogo}/>
     </main>
   )
 

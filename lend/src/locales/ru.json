@@ -30,6 +30,13 @@
                         "CardSubHeader": "занятие",
                         "CardDescription": "Описание карточки с опытом работы"
                     }
+                },
+                "CardEducation":{
+                    "Education":{
+                        "CardEducationHeader": "АГНИ",
+                        "CardEducationYears": "2010 - 2014",
+                        "CardEducationProfession": "Бизнес информатика"
+                    }
                 }
             },
             "MainSection":{
