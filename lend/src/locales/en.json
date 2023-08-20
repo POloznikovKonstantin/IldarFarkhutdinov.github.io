@@ -16,6 +16,29 @@
                     }
                 }
             },
+            "Card":{
+                "CardProject":{
+                    "ITProjects":{
+                        "NameHeader": "Project name",
+                        "Description": "Description project",
+                        "Stack": "Stack dev"
+                    }
+                },
+                "CardProfessionProfile":{
+                    "Profile":{
+                        "CardHeader": "N year",
+                        "CardSubHeader": "Class",
+                        "CardDescription": "Description of the work experience card"
+                    }
+                },
+                "CardEducation":{
+                    "Education":{
+                        "CardEducationHeader": "АГНИ",
+                        "CardEducationYears": "2010 - 2014",
+                        "CardEducationProfession": "Бизнес информатика"
+                    }
+                }
+            },
             "MainSection":{
                 "HeaderSection":{
                     "ProfessionalProfile": "Professional Profile",

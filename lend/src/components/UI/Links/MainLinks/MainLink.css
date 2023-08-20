@@ -1,17 +1,20 @@
 .main-link{
     display: block;
     width: calc(330 / 1920 * 100vw);
-    padding-top: calc(10 / 1920 * 100vw);
-    padding-bottom: calc(10 / 1920 * 100vw);
+    height: calc(35 / 1920 * 100vw);
+    padding-top: calc(5 / 1920 * 100vw);
+    padding-bottom: calc(3 / 1920 * 100vw);
 
     border: 1px solid var(--main-pink);
     background-color: var(--main-pink-transponent);
     border-radius: 5px;
 
-    text-align: center;
+    text-align:center;
     color: var(--main-pink);
+    font-size: calc(16 / 1920 * 100vw);
 
     transition-duration: 300ms;
+
 }
 .main-link:hover{
     border: 1px solid var(--main-gray);
@@ -32,8 +35,9 @@
 @media (max-width: 820px){
     .main-link{
         width: calc(330 / 640 * 100vw);
-        padding-top: calc(10 / 640 * 100vw);
-        padding-bottom: calc(10 / 640 * 100vw);
+        height: calc(35 / 640 * 100vw);
+        padding-top: calc(5 / 640 * 100vw);
+        padding-bottom: calc(3 / 640 * 100vw);
         font-size: calc(16 / 640 * 100vw);
     }
 }
@@ -41,8 +45,9 @@
 @media (max-width: 420px) {
     .main-link{
         width: calc(330 / 420 * 100vw);
-        padding-top: calc(10 / 420 * 100vw);
-        padding-bottom: calc(10 / 420 * 100vw);
+        height: calc(35 / 420 * 100vw);
+        padding-top: calc(5 / 420 * 100vw);
+        padding-bottom: calc(3 / 420 * 100vw);
         font-size: calc(16 / 420 * 100vw);
     }
 }

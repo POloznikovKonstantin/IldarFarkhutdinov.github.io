@@ -2,8 +2,8 @@ import React, {FC, useState} from 'react';
 import {IObjectLink} from "../../../../Types/types";
 import {useTranslation} from "react-i18next";
 import {WorkSvg} from "../../../../utils/WorkSvg";
-import {motion, AnimatePresence} from "framer-motion";
 import './DropDownLinks.css';
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 interface IDropDownLinks {
@@ -58,7 +58,6 @@ export const DropDownLinks: FC<IDropDownLinks> = (
                     )
                 }
             </AnimatePresence>
-
         </div>
     );
 };
