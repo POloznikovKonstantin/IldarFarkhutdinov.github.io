@@ -1,0 +1,10 @@
+.experience{
+    margin-left: calc(60 / 1920 * 100vw);
+    margin-top: calc(40 / 1920 * 100vw);
+}
+
+@media (max-width: 820px) {
+    .experience{
+        margin-inline: 0;
+    }
+}

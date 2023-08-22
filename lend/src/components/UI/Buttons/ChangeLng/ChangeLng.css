@@ -1,0 +1,10 @@
+.change-lng{
+    display: flex;
+    align-items: center;
+
+    user-select: none;
+}
+
+.change-lng__p{
+    margin-right: calc(10 / 1920 * 100vw);
+}

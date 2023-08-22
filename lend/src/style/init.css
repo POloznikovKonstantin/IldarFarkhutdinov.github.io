@@ -9,6 +9,7 @@
     --main-gray: #8F8F8F;
     --main-gray-transponent: rgba(143, 143, 143, 0.25);
     --main-black: #262626;
+    --main-black-transponent: rgba(38, 38, 38, 0.25);
     --main-pink: #F29C9B;
     --main-pink-transponent: rgba(242, 156, 155, 0.25);
 }

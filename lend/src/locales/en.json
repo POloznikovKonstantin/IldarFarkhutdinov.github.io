@@ -1,30 +1,115 @@
 {
-    "Components":{
-        "UI":{
-            "Buttons":{
-                "MainButtons": {
-                    "OpenGitHub": "Open GitHub"
-                }
-            },
-            "Links":{
-                "DropDownLinks": {
-                    "Education": {
-                        "main": "Education",
-                        "section1": "University",
-                        "section2": "Courses",
-                        "section3": "IT courses"
-                    }
-                }
-            },
-            "MainSection":{
-                "HeaderSection":{
-                    "ProfessionalProfile": "Professional Profile",
-                    "ExperienceInOilCompanies":{
-                        "main": "Experience in oil companies",
-                        "subtitle": "Experience was gained in such companies as Tatneft, Rosneft, Schlumberger, Sinopek"
-                    }
-                }
-            }
+  "Components": {
+    "UI": {
+      "Buttons": {
+        "MainButtons": {
+          "OpenGitHub": "Open GitHub"
         }
+      },
+      "Links": {
+        "CapLinks": {
+          "ProfessionalProfile": "Professional Profile",
+          "Experience": "Experience",
+          "Geography": "Geography of work",
+          "Projects": "Projects",
+          "AdditionalInformation": "Additional Information"
+        }
+      },
+      "MainSection": {
+        "HeaderSection": {
+          "ProfessionalProfile": "Professional Profile",
+          "ExperienceInOilCompanies": {
+            "main": "Experience in oil companies",
+            "subtitle": "Experience was gained in such companies as Tatneft, Rosneft, Schlumberger, Sinopek"
+          },
+          "Education": "Education"
+        },
+        "SubTitleText": {
+          "University": {
+            "University": "University",
+            "subtitle": "Graduated from three higher educational institutions related to geology, geophysics and petroleum engineering"
+          }
+        }
+      },
+      "Card": {
+        "ProfessionalProfile": {
+          "text-section-1": "“Today I have a unique experience of 10+ years in oil and gas sector at various positions in Russian and international companies. The geography of my work in the Russian Federation covers most of the oil Russian regions from Yakutia to Astrakhan, and also includes foreign experience in corporate professional trainings and internships in USA, UAE.",
+          "text-section-2": "I have a master's degree from the Scottish University and Tomsk Polytechnic University, and at the moment I am writing a PhD dissertation on the application of Artificial Intelligence (AI) in oil and gas industry.",
+          "text-section-3": "In the last 3.5 years I have been working as the head of the development department Center for Technological Development of PJSC Tatneft (Almetievsk), head 3 innovative project programs with 20-25 teams people and support of 50+ projects at different stages of implementation in areas of R&D and ODP. Expected EMV of projects by 2025 is 100+ billion rubles. Projects are implemented according to the Agile methodology, with daily Scrum meetings and support in Trello and CSS.“",
+          "lastName": "ILDAR Z. FARKHUTDINOV",
+          "smallCard1": {
+            "CardHeader": "13 years",
+            "CardSubHeader": "experience",
+            "CardDescription": "Experience was gained in such companies as Tatneft, Rosneft, Schlumberger, Sinopek"
+          },
+          "smallCard2": {
+            "CardHeader": "4 patents",
+            "CardSubHeader": "declared",
+            "CardDescription": "Four patents approved with the oil industry"
+          },
+          "smallCard3": {
+            "CardHeader": "7 articles",
+            "CardSubHeader": "published",
+            "CardDescription": "Published seven articles related to the oil industry"
+          }
+        },
+        "University": {
+          "item1": {
+            "name": "Heriot - Watt University",
+            "subtitle": "Master of Science (MSc) in Petroleum Engineering;"
+          },
+          "item2": {
+            "name": "National Research Tomsk Polytechnic University",
+            "subtitle": "Master of Science (MSc) in Petroleum Geosciences"
+          },
+          "item3": {
+            "name": "Almetyevsk State Petroleum Institute (Distinction diploma)",
+            "subtitle": "BSc in Mechanical Engineering."
+          }
+        }
+      },
+      "Accordion": {
+        "item1": {
+          "headerText": "Head of Exploration & Field Development Department",
+          "subTitleText": "\nJob responsibilities are subject to innovative\nglobal geology and development projects in general. Organization\nresearch and development and pilot work aimed at localizing the residual recoverable\nreserves and improving the efficiency of geological and technical operations, the development of EOR technologies, etc.\ntechnical methods for the development of mature fields.",
+          "dateText": "February 2020 - Present"
+        },
+        "item2": {
+          "headerText": "Leading expert. Department of development of oil and gas fields and\nexploration works, Center for Technological Development of PJSC TATNEFT,\nAlmetyevsk",
+          "subTitleText": "Job responsibilities included supporting R&D and ODP work,\nassociated with geological and hydrodynamic modeling of deposits,\ngeophysical and petrophysical works. He was the head of two major\nprograms of the company's projects in the direction of enhanced oil recovery\nand increase in geological and recoverable hydrocarbon reserves with an estimate of the indicator\nEBIDTA of 59.4 billion and 21.6 billion rubles. respectively.",
+          "dateText": "August 2018 — February 2020"
+        },
+        "item3": {
+          "headerText": "\nLeading Specialist. Department of design and development monitoring\nYuNG fields, Group of geological support for drilling HS and BGS,\nDepartment of Geology and Exploration / NK Rosneft, RN-UfaNIPIneft, Ufa",
+          "subTitleText": "The official duties included the construction of sectoral geological\nmodels with further issuance of targets for drilling horizontal wells and\nZBGS. Responsibilities also included selection of candidates for sidetracking drilling, analysis\n\nwork of the well stock of the environment, assessment of the starting flow rates of wells -\ncandidates, compiling a drilling rating, etc.",
+          "dateText": "August 2017 — August 2018"
+        },
+        "item4": {
+          "headerText": "\nChief Specialist of the Department of Geological Support for Drilling, TYUNGD, NK\nRosneft, Irkutsk",
+          "subTitleText": "\nThe position of the chief specialist includes the duties of issuing\ngeological targets for drilling horizontal wells and sidetracking. Operational\nestimation of reserves in the drilling area. Preparation of geological projects for\ndrilling of the wells. Real-time well drilling support\ntime, geosteering. Participation in the renewal of the geological and petrophysical\nmodels based on drilling results, well log data, seismic data. Well selection\ncandidates for ZBS. Coordinating work on a daily basis with the department\ndrilling, field development, design institute, with contractors\nHDD and MLWD and GIS service organizations.",
+          "dateText": "February 2016 — August 2017"
+        },
+        "item5": {
+          "headerText": "Lead Geosteering Engineer / Well Placement Engineer,\nSchlumberger, Tyumen",
+          "subTitleText": "My main responsibility was the geological support of drilling\nwells in real time. This position provides for\nrecommendations for optimal well placement during drilling, on\nbased on geological and geophysical data, as well as operational assessment\npetrophysical properties of reservoir rocks. My responsibilities also included\nthe following functions: Building a preliminary sector\ngeological model with a prediction of synthetic logging parameters expected in\ndrilling process. Analysis of initial geological information and well logging data\nby neighboring wells to identify the most productive reservoir zones\nand determining the target drilling interval. Generating posting reports\nwell, which reflected all the key decisions taken in\nthe process of drilling a wellbore;\nIn the drilling process, the main tool for making operational\nsolutions were a comprehensive analysis of LWD, technological parameters of HDD and\nGTI data. During geosteering, the following LWD instruments and\nMWD, which includes the following types of logging and image logging:\nElectric types of logging (KS, BK) - devices - Microscope, Periscope,\nARCvision, Impulse; Directional (azimuth) resistance curves,\nGamma-ray logging (PowerDrive, Slimpulse), Radioactive logging (GGK-P, NNK-T,\nGK) - ADNvision, Ecoscope etc. The geography of my work in this position includes\nWest Siberian, East Siberian regions, Volga-Ural region,\nShelf of the Pechora Sea (Prirazlomnoye field), Caspian Sea, etc.",
+          "dateText": "December 2014 — December 2015"
+        },
+        "item6": {
+          "headerText": "Geophysical Engineer (L/MWD - Logging and Measurements While Drilling), Schlumberger, D&M Division; , Pyt-\nYah, Buzuluk, Novy Urengoy",
+          "subTitleText": "Work as a field engineer in directional drilling and MLWD\ninvolved in the performance of a wide range of responsibilities, the main ones\nwhich were the duties of a telemetry specialist,\ngeophysicist and directional drilling engineer.\n\nResponsibilities included organizing the entire workflow\ndirectional drilling and MLWD, starting from the stage of ordering equipment from the base,\n\nsetup and installation of sensors and MWD / LWD devices on the drilling rig,\nprogramming of telemetry devices and preparation of a specialized\nSoftware, hereinafter - monitoring of technological parameters of the drilling process and work\ngeophysical instruments. Finishing operational geophysical\ninterpreting logs, preparing and sending daily reports. A\n\nalso preparation of the final report for the Customer on the work carried out on\ndrilling results.",
+          "dateText": "March 2013 — December 2014"
+        },
+        "item7": {
+          "headerText": "Manager in the group for monitoring the waterflooding system and the effectiveness of geological and technical operations, OJSC\nUdmurtneft JV PAO NK Rosneft and Chinese corporation Sinopec",
+          "subTitleText": "Maintenance of contracts with contractors for the implementation\nmeasures to increase oil recovery from reservoirs. Work with contractors\norganizations. Also, the duties included the selection of wells for EOR (WFP,\nOPP) and monitoring the effectiveness of development processes. Also was\nparticipant and winner of youth scientific and practical conferences of PJSC\nNK Rosneft.",
+          "dateText": ""
+        },
+        "item8": {
+          "headerText": "Specialist of field development department, OAO Udmurtneft, Izhevsk",
+          "subTitleText": "Creation of projects for trial operation of wells. Working with projects\nfield development. Working with government agencies\n(Rostekhnadzor, Ministry of Natural Resources).",
+          "dateText": "September 2011 — October 2012"
+        }
+      }
     }
+  }
 }

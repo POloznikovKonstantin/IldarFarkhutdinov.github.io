@@ -1,0 +1,30 @@
+.cap-links{
+	font-size: calc(16 / 1920 * 100vw);
+	display: block;
+}
+.cap-links__span{
+	color: var(--main-pink);
+	margin-right: calc(10 / 1920 * 100vw);
+}
+
+.cap-links:hover{
+	color: var(--main-pink);
+	transition-duration: 300ms;
+}
+
+.cap-links:active{
+	opacity: 0.5;
+	transition-duration: 300ms;
+}
+
+@media (max-width: 820px) {
+	.cap-links{
+		font-size: calc(30 / 640 * 100vw);
+	}
+}
+
+@media (max-width: 420px) {
+	.cap-links{
+		font-size: calc(30 / 420 * 100vw);
+	}
+}

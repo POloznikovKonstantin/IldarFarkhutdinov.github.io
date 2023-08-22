@@ -1,17 +1,32 @@
-import React, {FC, useEffect} from 'react';
+import React, {FC, useEffect, useState} from 'react';
 import {useTranslation} from 'react-i18next';
-import AppTest from "./AppTest";
-
+import {Cap} from "./components/Cap/Cap";
+import {Home} from "./components/Home/Home";
+import {Profile} from "./components/Profile/Profile";
+import {Experience} from "./components/Experience/Experience";
+import {Eduction} from "./components/Education/Eduction";
+import {Projects} from "./components/Projects/Projects";
 export const App: FC = () => {
     const {i18n} = useTranslation();
+    const [lng, setLng] = useState<string>();
 
     useEffect(() => {
-        i18n.changeLanguage('EN')
+        i18n.changeLanguage('EN');
+        setLng('EN')
     }, [i18n])
+
+    const funcChangeLng = (newLng: string) => {
+        setLng(newLng)
+    }
 
     return (
         <main className='container'>
-            <AppTest/>
+            <Cap stateLng={lng} funcChangeLng={funcChangeLng}/>
+            <Home/>
+            <Profile/>
+            <Experience/>
+            <Eduction/>
+            <Projects/>
         </main>
     )
 }

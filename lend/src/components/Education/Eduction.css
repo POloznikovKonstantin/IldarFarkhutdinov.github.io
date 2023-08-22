@@ -1,0 +1,40 @@
+.eduction{
+    margin-left: calc(60 / 1920 * 100vw);
+    margin-top: calc(40 / 1920 * 100vw);
+}
+
+.eduction-subtitle{
+    margin-top: calc(40 / 1920 * 100vw);
+}
+
+.eduction-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(20 / 1920 * 100vw);
+    margin-bottom: calc(20 / 1920 * 100vw);
+}
+
+.eduction-corses{
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(20 / 1920 * 100vw);
+}
+
+@media (max-width: 820px) {
+    .eduction{
+        margin-inline: 0;
+    }
+
+    .eduction-card{
+        display: flex;
+        flex-direction: column;
+        margin-top: calc(20 / 640 * 100vw);
+    }
+
+
+    .eduction-corses{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: calc(20 / 640 * 100vw);
+    }
+}
