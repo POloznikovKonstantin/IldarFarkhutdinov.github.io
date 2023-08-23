@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a922c7e0-0121-4b2f-ba07-ee96c80f1d73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Tatneft_Logo 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/avatarPP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svg/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Experience/Experience.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Accordion/Accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Accordion/Accordion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Card/CardProfessionalProfile/CardProfessionalProfile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Card/CardProfessionalProfile/CardProfessionalProfile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Card/QuoteCrad/QuoteCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Card/QuoteCrad/QuoteCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppTest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Links/DropDownLinks/DropDownLinks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Links/DropDownLinks/DropDownLinks.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Links/MainLinks/MainLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Links/MainLinks/MainLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/init.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/init.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/WorkSvg.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/WorkSvg.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2UF9jLpbMvT8TEuc9dIwwpJzCCC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Programing\\Work\\IldarFarkhutdinov.github.io\\lend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programing\Work\IldarFarkhutdinov.github.io\lend\src\assets\img" />
+      <recent name="C:\Programing\Work\IldarFarkhutdinov.github.io\lend\src\assets\svg" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a922c7e0-0121-4b2f-ba07-ee96c80f1d73" name="Changes" comment="" />
+      <created>1692524598048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692524598048</updated>
+      <workItem from="1692524600239" duration="9181000" />
+      <workItem from="1692567675562" duration="2198000" />
+      <workItem from="1692570035850" duration="12371000" />
+      <workItem from="1692611215066" duration="35513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

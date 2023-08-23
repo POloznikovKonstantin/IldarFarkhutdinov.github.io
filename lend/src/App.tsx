@@ -1,29 +1,32 @@
-/* eslint-disable react/jsx-no-undef */
-import React, {FC, useEffect} from 'react';
+import React, {FC, useEffect, useState} from 'react';
 import {useTranslation} from 'react-i18next';
-import { CardBg } from './assets';
-import { CardProject } from './components/UI/Card/CardProject/CardProject';
-import { CardProfessionalProfile } from './components/UI/Card/CardProfesionalProfile/CardProfessionalProfile';
-import { CardEducation } from './components/UI/Card/CardEducation/CardEducation';
-import { HWULogo } from './assets';
-
-
+import {Cap} from "./components/Cap/Cap";
+import {Home} from "./components/Home/Home";
+import {Profile} from "./components/Profile/Profile";
+import {Experience} from "./components/Experience/Experience";
+import {Eduction} from "./components/Education/Eduction";
+import {Projects} from "./components/Projects/Projects";
 export const App: FC = () => {
     const {i18n} = useTranslation();
+    const [lng, setLng] = useState<string>();
 
     useEffect(() => {
-        i18n.changeLanguage('EN')
+        i18n.changeLanguage('EN');
+        setLng('EN')
     }, [i18n])
 
-  return (
-    <main className='container'>
-      {/* <MainLink href={'/#'}>
-          Components.UI.Buttons.MainButtons.OpenGitHub
-      </MainLink>*/}
-      <CardProject NameHeader='Components.UI.Card.CardProject.ITProjects.NameHeader' Stack='Components.UI.Card.CardProject.ITProjects.Stack' Description='Components.UI.Card.CardProject.ITProjects.Description' Link='/#' ImgLink={CardBg}/>
-      <CardProfessionalProfile CardHeader='Components.UI.Card.CardProfessionProfile.Profile.CardHeader' CardSubHeader='Components.UI.Card.CardProfessionProfile.Profile.CardSubHeader' CardDescription='Components.UI.Card.CardProfessionProfile.Profile.CardDescription'/>
-      <CardEducation CardEducationHeader='Components.UI.Card.CardEducation.Education.CardEducationHeader' CardEducationYears='Components.UI.Card.CardEducation.Education.CardEducationYears' CardEducationProfession='Components.UI.Card.CardEducation.Education.CardEducationProfession' imgLogo={HWULogo}/>
-    </main>
-  )
+    const funcChangeLng = (newLng: string) => {
+        setLng(newLng)
+    }
 
+    return (
+        <main className='container'>
+            <Cap stateLng={lng} funcChangeLng={funcChangeLng}/>
+            <Home/>
+            <Profile/>
+            <Experience/>
+            <Eduction/>
+            <Projects/>
+        </main>
+    )
 }

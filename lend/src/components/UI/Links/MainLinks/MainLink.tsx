@@ -3,7 +3,7 @@ import {useTranslation} from "react-i18next";
 import './MainLink.css';
 
 interface IMainLink {
-    children: React.ReactNode | React.ReactChildren
+    children: React.ReactNode
     href: string
 }
 

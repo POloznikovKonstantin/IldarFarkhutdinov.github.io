@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import { MainLink } from './../../Links/MainLinks/MainLink';
+import { MainLink } from '../../Links/MainLinks/MainLink';
 import './CardProject.css';
 import { useTranslation } from 'react-i18next';
 
@@ -26,9 +26,9 @@ export const CardProject:FC<ICardProject> = ({NameHeader, Description, ImgLink, 
                 <p className="paragraph-text card-description-text">{t(Description)}</p>
             </div>
             <div className="card-footer">
-                    <MainLink href={Link}>
-                        Components.UI.Buttons.MainButtons.OpenGitHub
-                    </MainLink>
+                <MainLink href={Link}>
+                    Components.UI.Buttons.MainButtons.OpenGitHub
+                </MainLink>
             </div>
         </div>
     )

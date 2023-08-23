@@ -1,0 +1,80 @@
+.card-education-bg {
+    width: calc(400/1920 * 100vw);
+    height: calc(476/1920 * 100vw);
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid #8F8F8F;
+    background: #262626;
+    flex-direction: column;
+    padding: calc(33 / 1920 * 100vw) calc(23 / 1920 * 100vw) calc(26 / 1920 * 100vw) calc(18 / 1920 * 100vw);
+}
+
+.card-education-years-conteiner {
+    margin-top: calc(27/1920 * 100vw);
+    margin-bottom: calc(37/1920 * 100vw);
+}
+
+.card-education-years-text {
+    color: #FFF;
+    font-size: calc(16/1920 * 100vw);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card-education-profession-text {
+    word-break: break-all;
+}
+.card-education-logo {
+    height: calc(50/1920 * 100vw);
+    margin-top: calc(63/1920 * 100vw);
+    bottom: calc(26/1920 * 100vw);
+    position: absolute;
+}
+
+@media (max-width: 820px){
+    .card-education-bg{
+        padding: calc(33 / 640 * 100vw) calc(23 / 640 * 100vw) calc(26 / 640 * 100vw) calc(18 / 640 * 100vw);
+        width: 100%;
+        height: calc(476/640 * 100vw);
+        margin-top: calc(20 / 640 * 100vw);
+    }
+
+    .card-education-years-conteiner {
+        margin-top: calc(27/640 * 100vw);
+        margin-bottom: calc(37/640 * 100vw);
+    }
+
+    .card-education-years-text {
+        font-size: calc(16/640 * 100vw);
+    }
+
+    .card-education-logo {
+        height: calc(50/640 * 100vw);
+        margin-top: calc(63/640 * 100vw);
+        bottom: calc(26/640 * 100vw);
+    }
+}
+
+@media (max-width: 420px){
+    .card-education-bg{
+        padding: calc(33 / 420 * 100vw) calc(23 / 420 * 100vw) calc(26 / 420 * 100vw) calc(18 / 420 * 100vw);
+        width: 100%;
+        height: calc(476/420 * 100vw);
+    }
+
+    .card-education-years-conteiner {
+        margin-top: calc(27/420 * 100vw);
+        margin-bottom: calc(37/420 * 100vw);
+    }
+
+    .card-education-years-text {
+        font-size: calc(16/420 * 100vw);
+    }
+
+    .card-education-logo {
+        height: calc(50/420 * 100vw);
+        margin-top: calc(63/420 * 100vw);
+        bottom: calc(26/420 * 100vw);
+    }
+}
