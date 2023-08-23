@@ -33,7 +33,7 @@
                 },
                 "CardEducation":{
                     "Education":{
-                        "CardEducationHeader": "АГНИ",
+                        "CardEducationHeader": "",
                         "CardEducationYears": "2010 - 2014",
                         "CardEducationProfession": "Бизнес информатика"
                     }
