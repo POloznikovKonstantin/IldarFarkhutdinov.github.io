@@ -94,6 +94,32 @@
             "subtitle": "School 21 (Kazan, Russia)"
           }
         },
+        "publication": {
+          "item1":{
+            "header":"The Integrated Technology of Residual Reserves Localization and Profit Increase on Brownfields",
+            "description":"SPE Europec featured at 82nd EAGE Conference and Exhibition & EAGE Annual 2021, Amsterdam, The Netherlands"
+          },
+          "item2":{
+            "header":"Production Performance Analysis of Volga-Ural Mature Waterflood with PRIME Diagnostic Metrics",
+            "description":"Presentation at the Russian Oil and Gas Technology Conference SPE, which took place virtually on October 12-15, 2021."
+          },
+          "item3":{
+            "header":"Application of rhe controlled radial drilling technology in the tournaisian reservoir at PJSC \"Tatneft\"",
+            "description":"In October 2020, PJSC Tatneft carried out pilot work on drilling radial channels with subsequent acidizing at the Novo-Elkhovskoye field"
+          },
+          "item4":{
+            "header":"Discovery of New Geological Features of Botuobinskii Formation by Means of Remote Multilayer Mapping Technology",
+            "description":"At the end of 2016 LLC “Taas-Yuryakh Neftegazodobycha” (OC “Rosneft”) and Schlumberger successfully performed the pilot project of horizontal wells drilling with the new multilayer bed boundary mapping while drilling technology at the Srednebotuobinskoe oil and gas condensate field."
+          },
+          "item5":{
+            "header":"Field analysis of the late stage of waterflooding of the Volga-Ural oil basin field using Prime diagnostic metrics",
+            "description":"SPE Russian Petroleum Technology Conference 12 - 14 Oct 2020 Technopark Skolkovo Moscow, Russia"
+          },
+          "item6":{
+            "header":"Localization and development of residual oil reserves using geochemical studies based on neural network algorithms",
+            "description":"At the late stage of field development, residual oil reserves undergo a significant change from mobile to slow-moving and immobile. These reserves are mainly located in technogenically altered, washed out during operation, layers and areas of deposits."
+          }
+        },
         "itProjects":{
           "item1":{
             "header":"Not beaten, not painted",
