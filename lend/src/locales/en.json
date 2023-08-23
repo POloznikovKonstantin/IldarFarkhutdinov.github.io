@@ -196,6 +196,29 @@
           "subTitleText": "Creation of projects for trial operation of wells. Working with projects\nfield development. Working with government agencies\n(Rostekhnadzor, Ministry of Natural Resources).",
           "dateText": "September 2011 — October 2012"
         }
+      },
+      "Addictional":{
+        "header":"ADDITIONAL INFORMATION",
+        "subtitle1":{
+            "header":"Head of Section SPE Volga",
+            "subtitle":"2020 — 2022",
+            "paragraph":"Since 2020, I have been the head (chairperson) of SPE Volga, which is one one of the very first professional sections of SPE that opened in Russia. On today SPE Volga is the second largest professional section in the Russian Federation after Moscow, with 250+ active members, also including its composition is 3 student sections (KFU, AGNI, KHTI)."
+        },
+        "subtitle2":{
+            "header":"Part-time working/doing research at local University (Almetyevsk State Petroleum Institute)",
+            "subtitle":"",
+            "paragraph":"Since 2019 I’ve been doing research on Machine Learning application in Geoscience"  
+        },
+        "subtitle3":{
+          "header":"Participation as a delegate and speaker from PJSC TATNEFT at the international oil and gas exhibition in Abu Dhabi (UAE), ADIPEC 2019",
+          "subtitle":"",
+          "paragraph":""  
+        },
+        "subtitle4":{
+          "header":"Summer work in the USA as part of the Work&Travel student program.",
+          "subtitle":"",
+          "paragraph":""  
+        }
       }
     }
   }

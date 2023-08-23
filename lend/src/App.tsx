@@ -8,6 +8,7 @@ import {Eduction} from "./components/Education/Eduction";
 import {Projects} from "./components/Projects/Projects";
 import { CardPublication } from './components/UI/Card/CardPublication/CardPublication';
 import { GraphLocationForSplit } from './assets';
+import { Addictional } from './components/Addictional/Addictional';
 export const App: FC = () => {
     const {i18n} = useTranslation();
     const [lng, setLng] = useState<string>();
@@ -29,8 +30,8 @@ export const App: FC = () => {
             <Experience/>
             <Eduction/>
             <Projects/>
+            <Addictional/>
 
-            <CardPublication NameHeader='Components.UI.Card.publication.item1.header' Description='Components.UI.Card.publication.item1.description' ImgLink={GraphLocationForSplit} Link='/#' />
-        </main>
+            </main>
     )
 }
