@@ -33,7 +33,7 @@
 }
 
 .card-stack-text {
-    word-break: break-all;
+    word-break:keep-all;
 }
 
 .card-description {
@@ -42,11 +42,11 @@
 
 .card-header-text {
     margin-bottom: calc(25/1920 * 100vw);
-    word-break: break-all;
+    word-break:keep-all;
 }
 
 .card-description-text {
-    word-break: break-all;
+    word-break:keep-all;
 }
 .card-footer {
     display: flex;

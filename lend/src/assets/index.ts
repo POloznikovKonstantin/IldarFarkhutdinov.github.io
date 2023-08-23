@@ -16,6 +16,10 @@ import TPYLogo from './img/ТПУ_логотип.png';
 
 import yandex from './img/yandex 1.png';
 
+import GraphNBNP from './img/GraphNotBeatenNotPainted.png'
+import GraphLocationForSplit from './img/LocationForSplitGraph.png'
+import GraphRecoveryGold from './img/RecoveryGoldGraph.png'
+
 export {
     bgImage, avatarSmall,
 
@@ -23,7 +27,9 @@ export {
 
     TatneftLogo, Rosneft, Shulmberger,
 
-    HWU, TPY, AGN, School21Sber, BMSTU, TPYLogo,
+    HWU, TPY, AGN,
 
-    yandex
+    yandex, School21Sber, BMSTU, TPYLogo,
+
+    GraphLocationForSplit, GraphNBNP, GraphRecoveryGold
 }

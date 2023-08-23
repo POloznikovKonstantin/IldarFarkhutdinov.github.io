@@ -93,6 +93,40 @@
             "years": "(Jan. – Oct.)",
             "subtitle": "School 21 (Kazan, Russia)"
           }
+        },
+        "itProjects":{
+          "item1":{
+            "header":"Not beaten, not painted",
+            "stack":"Mathplot, numpy, pandas, warnings, sklearn, lightgbm, time",
+            "description":"Service for the sale of used cars \"Not beaten, not beautiful\" is developing an application to attract new customers. In it, you can quickly find out the market value of your car."
+          },
+          "item2":{
+            "header":"Recovery gold",
+            "stack":"Pandas, numpy, matplotlib, sklearn, namedtuple",
+            "description":"Development of a model that predicts the recovery rate of gold from gold ore. Data is used with cleanup extraction parameters."
+          },
+          "item3":{
+            "header":"Locations for wells",
+            "stack":"Mathplotlib, numpy, pandas, sklearn",
+            "description":"We were provided with oil samples in three regions: in each 100,000 deposits We will build a machine learning model that will help determine the region where mining will bring the greatest profit."
+          },
+            "smallProject":{
+              "item1":{
+                "header":"Data analysis",
+                "stack":"Pandas, matplotlib",
+                "description":"We have at our disposal the data of the Yandex.Realty service - an archive of ads for the sale of apartments in St. Petersburg and neighboring settlements for several years. Determine the market value of the property."
+              },
+              "item2":{
+                "header":"Statistical data analysis",
+                "stack":"Pandas, matplotlib",
+                "description":"Conduct statistical data analysis based on user rates and user mobile data usage."
+              },
+              "item3":{
+                "header":"Online shop Streamchik",
+                "stack":"Pandas, seaborn, matplotlib, numpy, scipy",
+                "description":"Checking data for errors and evaluating the impact on data exploration. Data review. Data preprocessing. Hypothesis testing."
+              }
+          }
         }
       },
       "Accordion": {
