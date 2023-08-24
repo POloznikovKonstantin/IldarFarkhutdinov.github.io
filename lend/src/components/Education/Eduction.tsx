@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import {HeaderSection} from "../UI/MainSections/HeaderSetion/HeaderSection";
 import {SubTitleSection} from "../UI/MainSections/SubTitleSection/SubTitleSection";
 import {CardEducation} from "../UI/Card/CardEduction/CardEduction";
-import {AGN, HWU, TPY, yandex} from "../../assets";
+import {AGN, BMSTU, HWU, School21Sber, TPY, TPYLogo, yandex} from "../../assets";
 
 import './Eduction.css';
 import {CardCourses} from "../UI/Card/CardCourses/CardCourses";
@@ -43,30 +43,30 @@ export const Eduction:FC = () => {
 
             <div className='eduction-corses'>
                 <CardCourses
-                    CardCoursesHeader={'Specialist in Data Science'}
-                    CardCoursesYears={"(Jan. – Oct.)"}
-                    CardCoursesSubtitle={'Yandex, Top Russian IT & technological company (Moscow, Russia)'}
+                    CardCoursesHeader={'Components.UI.Card.ITCourses.item1.header'}
+                    CardCoursesYears={'Components.UI.Card.ITCourses.item1.years'}
+                    CardCoursesSubtitle={'Components.UI.Card.ITCourses.item1.subtitle'}
                     imgRef={yandex}/>
                 <CardCourses
-                    CardCoursesHeader={'Specialist in Data Science'}
-                    CardCoursesYears={"(Jan. – Oct.)"}
-                    CardCoursesSubtitle={'Yandex, Top Russian IT & technological company (Moscow, Russia)'}
-                    imgRef={yandex}/>
+                    CardCoursesHeader={'Components.UI.Card.ITCourses.item2.header'}
+                    CardCoursesYears={'Components.UI.Card.ITCourses.item2.years'}
+                    CardCoursesSubtitle={'Components.UI.Card.ITCourses.item2.subtitle'}
+                    imgRef={BMSTU}/>
                 <CardCourses
-                    CardCoursesHeader={'Specialist in Data Science'}
-                    CardCoursesYears={"(Jan. – Oct.)"}
-                    CardCoursesSubtitle={'Yandex, Top Russian IT & technological company (Moscow, Russia)'}
-                    imgRef={yandex}/>
+                    CardCoursesHeader={'Components.UI.Card.ITCourses.item3.header'}
+                    CardCoursesYears={'Components.UI.Card.ITCourses.item3.years'}
+                    CardCoursesSubtitle={'Components.UI.Card.ITCourses.item3.subtitle'}
+                    imgRef={TPYLogo}/>
                 <CardCourses
-                    CardCoursesHeader={'Specialist in Data Science'}
-                    CardCoursesYears={"(Jan. – Oct.)"}
-                    CardCoursesSubtitle={'Yandex, Top Russian IT & technological company (Moscow, Russia)'}
-                    imgRef={yandex}/>
+                    CardCoursesHeader={'Components.UI.Card.ITCourses.item4.header'}
+                    CardCoursesYears={'Components.UI.Card.ITCourses.item4.years'}
+                    CardCoursesSubtitle={'Components.UI.Card.ITCourses.item4.subtitle'}
+                    imgRef={School21Sber}/>
                 <CardCourses
-                    CardCoursesHeader={'Specialist in Data Science'}
-                    CardCoursesYears={"(Jan. – Oct.)"}
-                    CardCoursesSubtitle={'Yandex, Top Russian IT & technological company (Moscow, Russia)'}
-                    imgRef={yandex}/>
+                    CardCoursesHeader={'Components.UI.Card.ITCourses.item5.header'}
+                    CardCoursesYears={'Components.UI.Card.ITCourses.item5.years'}
+                    CardCoursesSubtitle={'Components.UI.Card.ITCourses.item5.subtitle'}
+                    imgRef={School21Sber}/>
             </div>
         </div>
     );

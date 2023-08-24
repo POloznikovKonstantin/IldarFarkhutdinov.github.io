@@ -10,8 +10,15 @@ import Shulmberger from './img/schlumberger.png';
 import HWU from './img/Heriot-Watt_University_logo 1.png';
 import TPY from './img/ТПУ_логотип_rgb-04 2.png';
 import AGN from './img/ccdgodkvjt7elrc5rfctwkqftt7f3bsj 1 1.png';
+import School21Sber from './img/21sber.png';
+import BMSTU from './img/BMSTU_white.png';
+import TPYLogo from './img/ТПУ_логотип.png';
 
 import yandex from './img/yandex 1.png';
+
+import GraphNBNP from './img/GraphNotBeatenNotPainted.png'
+import GraphLocationForSplit from './img/LocationForSplitGraph.png'
+import GraphRecoveryGold from './img/RecoveryGoldGraph.png'
 
 export {
     bgImage, avatarSmall,
@@ -22,5 +29,7 @@ export {
 
     HWU, TPY, AGN,
 
-    yandex
+    yandex, School21Sber, BMSTU, TPYLogo,
+
+    GraphLocationForSplit, GraphNBNP, GraphRecoveryGold
 }
