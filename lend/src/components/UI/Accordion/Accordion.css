@@ -46,6 +46,7 @@
 
 .accordion-header-img {
     margin-right: calc(50 / 1920 * 100vw);
+    width: calc(100 / 1920 * 100vw);
 }
 
 .accordion-collapse {
@@ -97,6 +98,12 @@
     transform: rotate(180deg);
     transition-duration: 300ms;
     margin-left: calc(300  / 1920 * 100vw);
+}
+
+@media (max-width: 1440px) {
+    .accordion{
+        margin-inline: calc(230 / 1440 * 100vw);
+    }
 }
 
 
@@ -173,6 +180,7 @@
 
 @media (max-width: 420px) {
     .accordion-header-img {
-        width: calc(60 / 420 * 100vw);
+        margin-right: calc(10 / 420 * 100vw);
+        width: calc(40 / 420 * 100vw);
     }
 }

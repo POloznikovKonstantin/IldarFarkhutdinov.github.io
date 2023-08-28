@@ -197,6 +197,28 @@
           "dateText": "September 2011 — October 2012"
         }
       },
+      "AccordionPatent": {
+        "item1": {
+          "headerText": "Patent No. 2781975.",
+          "subTitleText": "Authors: Vladimir Yurievich Secretaryov (RU), Farkhutdinov\nIldar Zufarovich (RU), Filidi Georgy Nikolaevich\n(RU), Filidi Konstantin Georgievich (RU)",
+          "mainText": "Method and device for lateral sampling of core from a wall\nnon-centered section of the casing string in\ninclined well"
+        },
+        "item2": {
+          "headerText": "Patent No. 202361151.",
+          "subTitleText": "Authors: Farkhutdinov Ildar Zufarovich (RU), Gaifullin\nAlmaz Irekovich (RU)",
+          "mainText": "Well monitoring and evaluation software\neffectiveness of geological and technical measures\nField Screener. Software for oil well production\nmonitoring and evaluating workover operations efficiency\nField Screener"
+        },
+        "item3": {
+          "headerText": "Patent No. 2798683",
+          "subTitleText": "\nAuthors: Farkhutdinov Ildar Zufarovich (RU), Kamyshnikov\nAnton Gennadievich (RU), Beregovoy Anton Nikolaevich (RU),\nZairov Rustem Ravilevich (RU), Dovzhenko Alexey Pavlovich\n(RU)",
+          "mainText": "Method for detecting fluorescent and alcohol\ntracers in their joint presence in reservoir\nwaters during tracer interwell\nresearch"
+        },
+        "item4": {
+          "headerText": "Patent No. 2791768",
+          "subTitleText": "Authors: Farkhutdinov Ildar Zufarovich (RU), Kamyshnikov\nAnton Gennadievich (RU), Lutfullin Azat Abuzarovich (RU),\nZaripov Azat Timeryanovich (RU), Varfolomeev Mikhail\nAlekseevich (RU), Bolotov Alexander Vladimirovich (RU)",
+          "mainText": "Method of cross-well tracer test with low\nlimit of detection containing sodium or\npotassium salts of 2,4- or 3,5-dinitrobenzoic acids"
+        }
+      },
       "Addictional":{
         "header":"ADDITIONAL INFORMATION",
         "subtitle1":{

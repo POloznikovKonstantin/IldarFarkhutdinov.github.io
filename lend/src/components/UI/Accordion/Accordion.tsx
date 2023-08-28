@@ -20,7 +20,8 @@ export const Accordion: FC<IAccordion> = ({exp}) => {
         <ul className='accordion'>
             {
                 exp.map((el, index) => (
-                    <AccordionItem item={el} onClick={clickHandler} isOpen={index === openId} length={exp.length} index={index}/>
+                    <AccordionItem item={el} onClick={clickHandler} isOpen={index === openId} length={exp.length}
+                                   index={index}/>
                 ))
             }
         </ul>

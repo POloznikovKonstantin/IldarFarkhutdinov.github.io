@@ -6,7 +6,7 @@
     border: 2px solid var(--main-gray);
     background-color: var(--main-black);
     padding-block: calc(25 / 1920 * 100vw);
-    padding-inline: calc(18 / 1920 * 100vw);
+    padding-inline: calc(18 / 1920 * 100vw);;
 }
 
 .card-courses-logo{
@@ -23,6 +23,12 @@
 
 .card-courses-years-container{
     margin-bottom: calc(20 / 1920 * 100vw);
+}
+
+@media (max-width: 1440px) {
+    .card-courser-bg{
+        margin-inline: calc(5 / 1440 * 100vw);
+    }
 }
 
 @media (max-width: 820px) {

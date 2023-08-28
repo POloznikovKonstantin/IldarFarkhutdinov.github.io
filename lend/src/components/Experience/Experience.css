@@ -3,6 +3,12 @@
     margin-top: calc(40 / 1920 * 100vw);
 }
 
+@media (max-width: 1440px) {
+    .experience{
+        margin-left: calc(230 / 1440 * 100vw);
+    }
+}
+
 @media (max-width: 820px) {
     .experience{
         margin-inline: 0;

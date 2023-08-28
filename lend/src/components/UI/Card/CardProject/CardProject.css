@@ -57,6 +57,7 @@
 @media (max-width: 820px){
     .card-bg{
         width: calc(390/640 * 100vw);
+        margin-block: calc(20 / 640 * 100vw);
     }
     .card-image{
         width: calc(386/640 * 100vw);
@@ -93,6 +94,7 @@
 @media (max-width: 420px){
     .card-bg{
         width: calc(390/420 * 100vw);
+        margin-block: calc(20 / 420 * 100vw);
     }
     .card-image{
         width: calc(386/420 * 100vw);

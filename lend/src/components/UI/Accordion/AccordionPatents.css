@@ -1,0 +1,193 @@
+.accordion-patents{
+    margin-top: calc(20 / 1920 * 100vw);
+    border-radius: 20px;
+    border: 2px solid var(--main-gray);
+}
+
+.accordion-patents__button{
+    position: relative;
+    width: 100%;
+
+    display: flex;
+
+    padding-inline: calc(50 / 1920 * 100vw);
+    padding-block: calc(20 / 1920 * 100vw);
+    border-bottom: solid 2px var(--main-gray);
+}
+
+.accordion-patents__button-last{
+    position: relative;
+    width: 100%;
+
+    display: flex;
+
+    padding-inline: calc(50 / 1920 * 100vw);
+    padding-block: calc(20 / 1920 * 100vw);
+}
+
+.accordion-patents__button_header{
+    font-size: calc(20 / 1920 * 100vw);
+    width: calc(1060 / 1920 * 100vw);
+
+    text-align: start;
+    font-weight: 700;
+
+}
+
+.accordion-patents__collapse{
+    height: 0;
+    overflow: hidden;
+    transition: height 300ms;
+}
+
+.accordion-patents__collapse-content{
+    display: flex;
+    align-items: center;
+
+    padding-inline: calc(50 / 1920 * 100vw);
+    padding-block: calc(20 / 1920 * 100vw);
+    border-bottom: solid 2px var(--main-gray);
+}
+
+.accordion-patents__collapse-content-last{
+    display: flex;
+    align-items: center;
+
+    padding-inline: calc(50 / 1920 * 100vw);
+    padding-block: calc(20 / 1920 * 100vw);
+}
+
+.accordion-patents__collapse-text{
+    margin-left: calc(40 / 1920 * 100vw);
+}
+
+.accordion-patents__collapse-main-text{
+    font-weight: 700;
+    font-size: calc(32 / 1920 * 100vw);
+    margin-bottom: calc(40 / 1920 * 100vw);
+
+    width: calc(800 / 1920 * 100vw);
+}
+
+.accordion-patents__collapse-subtitle-text{
+    font-size: calc(16 / 1920 * 100vw);
+    width: calc(800 / 1920 * 100vw);
+}
+
+.accordion-content-chevron{
+    margin-left: calc(140 / 1920 * 100vw);
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+
+.accordion-content-chevron-active{
+    margin-left: calc(140 / 1920 * 100vw);
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+@media (max-width: 820px) {
+    .accordion-patents{
+        margin-top: calc(20 / 640 * 100vw);
+    }
+
+    .accordion-patents__button{
+        padding-inline: calc(50 / 640 * 100vw);
+        padding-block: calc(20 / 640 * 100vw);
+        border-bottom: solid 2px var(--main-gray);
+    }
+
+    .accordion-patents__button-last{
+        padding-inline: calc(50 / 640 * 100vw);
+        padding-block: calc(20 / 640 * 100vw);
+    }
+
+    .accordion-patents__button_header{
+        font-size: calc(20 / 640 * 100vw);
+        width: calc(520 / 640 * 100vw);
+    }
+
+    .accordion-patents__collapse-content{
+        align-items: flex-start;
+        padding-inline: calc(50 / 640 * 100vw);
+        padding-block: calc(20 / 640 * 100vw);
+    }
+
+    .accordion-patents__collapse-content-last{
+        align-items: flex-start;
+        padding-inline: calc(50 / 640 * 100vw);
+        padding-block: calc(20 / 640 * 100vw);
+    }
+
+    .accordion-patents__collapse-text{
+        margin-left: calc(40 / 640 * 100vw);
+    }
+
+    .accordion-patents__collapse-main-text{
+        font-size: calc(32 / 640 * 100vw);
+        margin-bottom: calc(40 / 640 * 100vw);
+
+        width: auto;
+    }
+
+    .accordion-patents__collapse-subtitle-text{
+        font-size: calc(16 / 640 * 100vw);
+        width: auto;
+    }
+
+    .accordion-patents__collapse-img{
+        width: calc(120 / 640 * 100vw);
+    }
+}
+
+@media (max-width: 420px) {
+    .accordion-patents{
+        margin-top: calc(20 / 420 * 100vw);
+    }
+    .accordion-patents__button_header{
+        font-size: calc(20 / 420 * 100vw);
+    }
+
+    .accordion-patents__button{
+        padding-inline: calc(30 / 420 * 100vw);
+        padding-block: calc(15 /420 * 100vw);
+    }
+
+    .accordion-patents__collapse-content{
+        align-items: flex-start;
+        flex-direction: column;
+        padding-inline: calc(30 / 420 * 100vw);
+        padding-block: calc(15 / 420 * 100vw);
+    }
+
+    .accordion-patents__collapse-content-last{
+        align-items: flex-start;;
+        flex-direction: column;
+        padding-inline: calc(30 / 420 * 100vw);
+        padding-block: calc(15 / 420 * 100vw);
+    }
+
+    .accordion-patents__button-last{
+        padding-inline: calc(30 / 420 * 100vw);
+        padding-block: calc(15 /420 * 100vw);
+    }
+
+    .accordion-patents__collapse-main-text{
+        font-size: calc(24 / 420 * 100vw);
+        margin-bottom: calc(40 / 420 * 100vw);
+
+        width: auto;
+    }
+
+    .accordion-patents__collapse-subtitle-text{
+        font-size: calc(16 / 420 * 100vw);
+        width: auto;
+    }
+
+    .accordion-patents__collapse-img{
+        width: 100%;
+        padding-inline: calc(30 / 420 * 100vw);
+        margin-bottom: calc(20 / 420 * 100vw);
+    }
+
+}

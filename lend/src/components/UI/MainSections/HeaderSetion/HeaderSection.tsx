@@ -2,7 +2,6 @@ import React, {FC} from 'react';
 import {useTranslation} from 'react-i18next';
 import './HeaderSection.css';
 import {WorkSvg} from "../../../../utils/WorkSvg";
-import {MainLink} from "../../Links/MainLinks/MainLink";
 
 interface IHeaderSectionProps{
     header: string,

@@ -20,6 +20,11 @@ import GraphNBNP from './img/GraphNotBeatenNotPainted.png'
 import GraphLocationForSplit from './img/LocationForSplitGraph.png'
 import GraphRecoveryGold from './img/RecoveryGoldGraph.png'
 
+import patent1 from './img/patent/Patent1.png';
+import patent2 from './img/patent/patent2.png';
+import patent3 from './img/patent/patent3.png';
+import patent4 from './img/patent/Patent4.png';
+
 export {
     bgImage, avatarSmall,
 
@@ -31,5 +36,8 @@ export {
 
     yandex, School21Sber, BMSTU, TPYLogo,
 
-    GraphLocationForSplit, GraphNBNP, GraphRecoveryGold
+    GraphLocationForSplit, GraphNBNP, GraphRecoveryGold,
+
+
+    patent1, patent2, patent3, patent4
 }

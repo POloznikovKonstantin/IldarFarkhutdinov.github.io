@@ -20,6 +20,12 @@
     margin-top: calc(20 / 1920 * 100vw);
 }
 
+@media (max-width: 1440px) {
+    .eduction{
+        margin-inline: calc(230 / 1440 * 100vw );
+    }
+}
+
 @media (max-width: 820px) {
     .eduction{
         margin-inline: 0;
