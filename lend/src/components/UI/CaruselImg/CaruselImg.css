@@ -1,0 +1,37 @@
+.corusel-main-contaner{
+    height: calc(540 / 1920 * 100vw);
+    width: calc(1200 / 1920 * 100vw);
+}
+
+.corusel-window{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.corusel-all-pages-container{
+    height: 100%;
+    display: flex;
+
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.corusel-arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: calc(90 / 1920 * 100vw);
+}
+
+.corusel-arrows-item{
+    cursor: pointer;
+    margin-top: calc(15 / 1920 * 100vw);
+    margin-right:  calc(60 / 1920 * 100vw);
+
+    transition-duration: 500ms;
+
+    width:  calc(30 / 1920 * 100vw);
+}

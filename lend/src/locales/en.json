@@ -241,6 +241,14 @@
           "subtitle":"",
           "paragraph":""  
         }
+      },
+      "Footer": {
+        "ggp": {
+          "1" : "Geology",
+          "2": " Geophysics and",
+          "3": "Petroleum Engineering"
+        },
+        "Contact": "Contact with me:"
       }
     }
   }

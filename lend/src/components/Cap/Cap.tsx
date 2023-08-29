@@ -29,9 +29,9 @@ export const Cap: FC<ICap> = ({stateLng, funcChangeLng}) => {
                         Components.UI.Links.CapLinks.Experience
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
-                        Components.UI.Links.CapLinks.Geography
-                    </CapLinks>
+                    {/*<CapLinks href={'/#'} className='cap-content__link'>*/}
+                    {/*    Components.UI.Links.CapLinks.Geography*/}
+                    {/*</CapLinks>*/}
 
                     <CapLinks href={'/#'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.Projects

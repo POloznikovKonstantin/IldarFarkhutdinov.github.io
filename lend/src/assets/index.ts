@@ -25,6 +25,17 @@ import patent2 from './img/patent/patent2.png';
 import patent3 from './img/patent/patent3.png';
 import patent4 from './img/patent/Patent4.png';
 
+import c1img from './img/Carusel/c1img.png';
+import c2img from './img/Carusel/c2img.png';
+import c3img from './img/Carusel/c3img.png';
+import c4img from './img/Carusel/c4img.png';
+import c5img from './img/Carusel/c5img.png';
+import c6img from './img/Carusel/c6img.png';
+import c7img from './img/Carusel/c7img.png';
+import c8img from './img/Carusel/c8img.png';
+import c9img from './img/Carusel/c9ing.png';
+import c10img from './img/Carusel/c10img.png';
+
 export {
     bgImage, avatarSmall,
 
@@ -39,5 +50,7 @@ export {
     GraphLocationForSplit, GraphNBNP, GraphRecoveryGold,
 
 
-    patent1, patent2, patent3, patent4
+    patent1, patent2, patent3, patent4,
+
+    c1img, c2img, c3img, c4img, c5img, c6img, c7img, c8img, c9img, c10img
 }

@@ -6,9 +6,9 @@ import {Profile} from "./components/Profile/Profile";
 import {Experience} from "./components/Experience/Experience";
 import {Eduction} from "./components/Education/Eduction";
 import {Projects} from "./components/Projects/Projects";
-import { CardPublication } from './components/UI/Card/CardPublication/CardPublication';
-import { GraphLocationForSplit } from './assets';
-import { Addictional } from './components/Addictional/Addictional';
+import {Addictional} from './components/Addictional/Addictional';
+import {Footer} from "./components/Footer/Footer";
+
 export const App: FC = () => {
     const {i18n} = useTranslation();
     const [lng, setLng] = useState<string>();
@@ -31,7 +31,7 @@ export const App: FC = () => {
             <Eduction/>
             <Projects/>
             <Addictional/>
-
-            </main>
+            <Footer/>
+        </main>
     )
 }

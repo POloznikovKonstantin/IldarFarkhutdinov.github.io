@@ -11,9 +11,21 @@
     margin-top: calc(60 / 1920 * 100vw);
 }
 
+.item-cor{
+    display: flex;
+    justify-content: space-around;
+}
+.cor{
+    margin-top: calc(60 / 1920 * 100vw);
+}
+
 @media (max-width: 1440px) {
     .addictional{
         margin-inline: calc(230 / 1440 * 100vw);
+    }
+
+    .cor{
+        margin-top: calc(60 / 1440 * 100vw);
     }
 }
 
@@ -30,6 +42,10 @@
     .addictional-subtitle{
         margin-top: calc(60 / 640 * 100vw);
     }
+
+    .cor{
+        display: none;
+    }
 }
 
 @media (max-width: 420px) {
@@ -43,5 +59,9 @@
 
     .addictional-subtitle{
         margin-top: calc(30 / 420 * 100vw);
+    }
+
+    .cor{
+        display: none;
     }
 }
