@@ -1,5 +1,9 @@
 {
   "Components": {
+    "Home":{
+      "quote":"“Today I have a unique experience of 10+ years in oil and gas sector at various positions in Russian and international companies. The geography of my work in the Russian Federation covers most of the oil Russian regions from Yakutia to Astrakhan, and also includes foreign experience in corporate professional trainings and internships in USA, UAE.”",
+      "author":"ILDAR Z. FARKHUTDINOV"
+    },
     "UI": {
       "Buttons": {
         "MainButtons": {

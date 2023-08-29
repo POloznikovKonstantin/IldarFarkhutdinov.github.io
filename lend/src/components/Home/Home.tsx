@@ -7,13 +7,13 @@ import { WorkSvg } from '../../utils/WorkSvg';
 export const Home:FC = () => {
         const {t} = useTranslation();
         return (
-        <section className='main-section'>
-            <img className='main-section__img' src={bgImage} alt='' />
+        <section className='home'>
+            <img className='home__img' src={bgImage} alt='' />
 
-            <div className='main-section__content'>
+            <div className='home__content'>
 
                 <article>
-                    <p className='main-section__subtitle'>
+                    <p className='home__subtitle'>
                         Machine Learning 
                         <span> &</span> Data Science <span> @</span>
                     </p>
@@ -24,14 +24,14 @@ export const Home:FC = () => {
                         Petroleum Engineering<br/>
                     </p>
 
-                    <div className='main-section__logo-set'>
-                        <div className='main-section__logo-item1'>
+                    <div className='home__logo-set'>
+                        <div className='home__logo-item1'>
                             <img src={TPYHomeLogo} alt=''/>
-                            <img className='main-section__logo-item1-i2' src={HWUHomeLogo} alt=''/>
-                            <img className='main-section__logo-item1-i3' src={InnopolisHomeLogo} alt=''/>
+                            <img className='home__logo-item1-i2' src={HWUHomeLogo} alt=''/>
+                            <img className='home__logo-item1-i3' src={InnopolisHomeLogo} alt=''/>
                         </div>
 
-                        <div className='main-section__logo-item2'>
+                        <div className='home__logo-item2'>
                             <img src={SchlumbergerHomeLogo} alt=''/>
                             <img src={RosneftHomeLogo} alt=''/>
                             <img src={TatneftHomeLogo} alt=''/>
@@ -39,17 +39,17 @@ export const Home:FC = () => {
                     </div>
                 </article>
 
-                <div className='main-section__conten-img'>
-                    <img src={AvatarBig} alt=''/>
-                    <div className='main-section__quote'>
-                        <p className='main-section__quote-p'>
-                            {t('SectionHome.Quote')}
+                <div className='home__conten-img'>
+                    <img src={AvatarBig} className='home__conten-img-avatar' alt=''/>
+                    <div className='home__quote'>
+                        <p className='home__quote-p'>
+                            {t('Components.Home.quote')}
                         </p>
 
-                        <div className='main-section__author'>
+                        <div className='home__author'>
                             <WorkSvg nameSvg='vector'/>
-                            <p className='main-section__author-p'>
-                                {t('SectionHome.Author')}
+                            <p className='home__author-p'>
+                                {t('Components.Home.author')}
                             </p>
                         </div>
                     </div>
