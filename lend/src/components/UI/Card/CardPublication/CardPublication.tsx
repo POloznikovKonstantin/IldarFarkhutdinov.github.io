@@ -14,16 +14,16 @@ export const CardPublication:FC<ICardPublication> = ({NameHeader, Description, I
     const {t} = useTranslation();
 
     return(
-        <div className="card-bg">
-            <div className="card-image-gradient"></div>
-            <img className="card-image" src={ImgLink}/>
-            <div className="card-description">
-                <h3 className="subtitle-text card-header-text">{t(NameHeader)}</h3>
-                <p className="paragraph-text card-description-text">{t(Description)}</p>
+        <div className="card-publication-bg">
+            <div className="card-publication-image-gradient"></div>
+            <img className="card-publication-image" src={ImgLink}/>
+            <div className="card-publication-description">
+                <h3 className="subtitle-text card-publication-header-text">{t(NameHeader)}</h3>
+                <p className="paragraph-text card-publication-description-text">{t(Description)}</p>
             </div>
-            <div className="card-footer">
+            <div className="card-publication-footer">
                 <MainLink href={Link}>
-                    Components.UI.Buttons.MainButtons.OpenGitHub
+                    Components.UI.Buttons.MainButtons.ReadMore
                 </MainLink>
             </div>
         </div>

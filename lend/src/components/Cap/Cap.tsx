@@ -21,11 +21,11 @@ export const Cap: FC<ICap> = ({stateLng, funcChangeLng}) => {
                 <WorkSvg nameSvg={'Logo'}/>
 
                 <div className='cap-content__links'>
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#ProfessionalProfile'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.ProfessionalProfile
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#Experience'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.Experience
                     </CapLinks>
 
@@ -33,11 +33,11 @@ export const Cap: FC<ICap> = ({stateLng, funcChangeLng}) => {
                         Components.UI.Links.CapLinks.Geography
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#Projects'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.Projects
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#AdditionalInformation'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.AdditionalInformation
                     </CapLinks>
                 </div>

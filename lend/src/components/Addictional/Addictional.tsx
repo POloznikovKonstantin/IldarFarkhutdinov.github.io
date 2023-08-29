@@ -8,8 +8,8 @@ export const Addictional:FC =() => {
     const {t} = useTranslation();
 
     return (
-        <div className="addictional">
-            <HeaderSection 
+        <div className="addictional" id="AdditionalInformation">
+            <HeaderSection
                         header="Components.UI.Addictional.header"
             />
 
