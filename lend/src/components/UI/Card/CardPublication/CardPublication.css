@@ -5,6 +5,7 @@
     border-radius: 20px;
     border: 2px solid #9E9E9E;
     background: #262626;
+    margin: calc(13/1920 * 100vw);
 }
 
 .card-publication-image{
@@ -47,6 +48,7 @@
     .card-publication-bg{
         width: calc(390/640 * 100vw);
         height: calc(725/640 * 100vw);
+        margin: calc(13/640 * 100vw);
     }
     .card-publication-image{
         width: calc(386/640 * 100vw);
@@ -80,6 +82,7 @@
     .card-publication-bg{
         width: calc(390/420 * 100vw);
         height: calc(725/420 * 100vw);
+        margin: calc(13/420 * 100vw);
     }
     .card-publication-image{
         width: calc(386/420 * 100vw);

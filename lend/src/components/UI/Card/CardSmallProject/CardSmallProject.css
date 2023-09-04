@@ -5,6 +5,7 @@
     border-radius: 20px;
     border: 2px solid #9E9E9E;
     background: #262626;
+    margin: calc(13/1920*100vw);
 }
 
 .card-small-image{

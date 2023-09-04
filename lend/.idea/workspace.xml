@@ -5,24 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a922c7e0-0121-4b2f-ba07-ee96c80f1d73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/patent/Patent1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatentsItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/RectangleSection.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/RectangleSection.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svg/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/Vector.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Addictional/Addictional.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Addictional/Addictional.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Addictional/Addictional.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Addictional/Addictional.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cap/Cap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cap/Cap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cap/Cap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cap/Cap.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Education/Eduction.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Education/Eduction.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Education/Eduction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Education/Eduction.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Accordion/Accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Accordion/Accordion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Accordion/Accordion.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatents.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatents.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatents.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatentsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Accordion/AccordionPatentsItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Buttons/ChangeLng/ChangeLng.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Buttons/ChangeLng/ChangeLng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Buttons/ChangeLng/ChangeLng.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Buttons/ChangeLng/ChangeLng.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardCourses/CardCourses.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardCourses/CardCourses.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardCourses/CardCourses.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardCourses/CardCourses.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardEduction/CardEduction.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardEduction/CardEduction.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardEduction/CardEduction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardEduction/CardEduction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardProfessionalProfile/CardProfessionalProfile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardProfessionalProfile/CardProfessionalProfile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardProfessionalProfile/CardProfessionalProfile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardProfessionalProfile/CardProfessionalProfile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardProject/CardProject.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardProject/CardProject.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardProject/CardProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardProject/CardProject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardPublication/CardPublication.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardPublication/CardPublication.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/CardPublication/CardPublication.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/CardPublication/CardPublication.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/QuoteCrad/QuoteCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/QuoteCrad/QuoteCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card/QuoteCrad/QuoteCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card/QuoteCrad/QuoteCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Links/CapLinks/CapLinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Links/CapLinks/CapLinks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Links/CapLinks/CapLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Links/CapLinks/CapLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Links/MainLinks/MainLink.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Links/MainLinks/MainLink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Links/MainLinks/MainLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Links/MainLinks/MainLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/MainSections/HeaderSetion/HeaderSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MainSections/HeaderSetion/HeaderSection.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/MainSections/HeaderSetion/HeaderSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MainSections/HeaderSetion/HeaderSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/MainSections/SubTitleSection/SubTitleSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MainSections/SubTitleSection/SubTitleSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18next.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18next.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_resetStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_resetStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/init.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/init.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/WorkSvg.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/WorkSvg.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +104,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programing\Work\IldarFarkhutdinov.github.io\lend\src\assets\img\Carusel" />
       <recent name="C:\Programing\Work\IldarFarkhutdinov.github.io\lend\src\assets\img\patent" />
       <recent name="C:\Programing\Work\IldarFarkhutdinov.github.io\lend\src\assets\img" />
       <recent name="C:\Programing\Work\IldarFarkhutdinov.github.io\lend\src\assets\svg" />
@@ -85,7 +125,8 @@
       <workItem from="1692860784592" duration="10100000" />
       <workItem from="1692948339621" duration="8579000" />
       <workItem from="1693227952923" duration="4735000" />
-      <workItem from="1693253194775" duration="4307000" />
+      <workItem from="1693253194775" duration="15295000" />
+      <workItem from="1693279908988" duration="406000" />
     </task>
     <servers />
   </component>

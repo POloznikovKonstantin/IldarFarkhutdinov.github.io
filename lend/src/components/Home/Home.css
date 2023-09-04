@@ -50,7 +50,7 @@
 .home__quote{
     position: relative;
     top: calc(-10 / 1920 * 100vw);
-    z-index: 10;
+    z-index: 2;
     width: calc(600 / 1920 * 100vw);
     border: 2px solid var(--main-gray);
     border-radius: 20px;

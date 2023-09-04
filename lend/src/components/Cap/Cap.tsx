@@ -29,9 +29,9 @@ export const Cap: FC<ICap> = ({stateLng, funcChangeLng}) => {
                         Components.UI.Links.CapLinks.Experience
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
-                        Components.UI.Links.CapLinks.Geography
-                    </CapLinks>
+                    {/*<CapLinks href={'/#'} className='cap-content__link'>*/}
+                    {/*    Components.UI.Links.CapLinks.Geography*/}
+                    {/*</CapLinks>*/}
 
                     <CapLinks href={'#Projects'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.Projects
@@ -53,23 +53,23 @@ export const Cap: FC<ICap> = ({stateLng, funcChangeLng}) => {
 
             {isActive && (
                 <div className='cap-content__mob-links'>
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#ProfessionalProfile'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.ProfessionalProfile
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#Experience'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.Experience
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#Geography'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.Geography
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'Projects'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.Projects
                     </CapLinks>
 
-                    <CapLinks href={'/#'} className='cap-content__link'>
+                    <CapLinks href={'#AdditionalInformation'} className='cap-content__link'>
                         Components.UI.Links.CapLinks.AdditionalInformation
                     </CapLinks>
 

@@ -23,7 +23,7 @@ export const CardSmallProject:FC<ICardSmallProject> = ({NameHeader, Description,
                 <p className="paragraph-text card-small-description-text">{t(Description)}</p>
             </div>
             <div className="card-small-footer">
-                <MainLink href={Link}>
+                <MainLink href={t(Link)}>
                     Components.UI.Buttons.MainButtons.OpenGitHub
                 </MainLink>
             </div>
