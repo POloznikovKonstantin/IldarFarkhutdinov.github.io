@@ -6,7 +6,7 @@ import {CardProfessionalProfile} from "../UI/Card/CardProfessionalProfile/CardPr
 
 export const Profile = () => {
     return (
-        <div className='profile'>
+        <div className='profile' id='ProfessionalProfile'>
             <HeaderSection
                 header={'Components.UI.MainSection.HeaderSection.ProfessionalProfile'}
             />

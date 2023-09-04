@@ -8,13 +8,13 @@ import {
     c1img, c2img, c3img, c4img, c5img, c6img, c7img, c8img, c9img, c10img
 } from "../../assets/index";
 
-export const Addictional: FC = () => {
+export const Addictional:FC =() => {
     const {t} = useTranslation();
 
     return (
-        <div className="addictional">
+        <div className="addictional" id="AdditionalInformation">
             <HeaderSection
-                header="Components.UI.Addictional.header"
+                        header="Components.UI.Addictional.header"
             />
 
             <div className="addictional-content">

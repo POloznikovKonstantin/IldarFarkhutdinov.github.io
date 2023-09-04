@@ -7,7 +7,7 @@ import {Rosneft, Shulmberger, TatneftLogo} from "../../assets";
 export const Experience:FC = () => {
     return (
         <>
-            <div className='experience'>
+            <div className='experience' id='Experience'>
                 <HeaderSection
                     header={'Components.UI.MainSection.HeaderSection.ExperienceInOilCompanies.main'}
                     subTitle={'Components.UI.MainSection.HeaderSection.ExperienceInOilCompanies.subtitle'}

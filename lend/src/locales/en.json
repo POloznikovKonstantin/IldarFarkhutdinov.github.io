@@ -1,9 +1,14 @@
 {
   "Components": {
+    "Home":{
+      "quote":"“Today I have a unique experience of 10+ years in oil and gas sector at various positions in Russian and international companies. The geography of my work in the Russian Federation covers most of the oil Russian regions from Yakutia to Astrakhan, and also includes foreign experience in corporate professional trainings and internships in USA, UAE.”",
+      "author":"ILDAR Z. FARKHUTDINOV"
+    },
     "UI": {
       "Buttons": {
         "MainButtons": {
-          "OpenGitHub": "Open GitHub"
+          "OpenGitHub": "Open GitHub",
+          "ReadMore":"Read more"
         }
       },
       "Links": {
@@ -136,6 +141,21 @@
             "stack":"Mathplotlib, numpy, pandas, sklearn",
             "description":"We were provided with oil samples in three regions: in each 100,000 deposits We will build a machine learning model that will help determine the region where mining will bring the greatest profit."
           },
+          "item4":{
+            "header":"tariff recommendation",
+            "stack":"pandas, numpy, sklearn",
+            "description":"We have at our disposal data on the behavior of customers who have already switched to these tariffs. You need to build a model for the classification problem that will select the appropriate rate. Data preprocessing is not required - it is already done. Building a model with the highest possible accuracy."
+          },
+          "item5":{
+            "header":"Predicting customer loss",
+            "stack":"Mathplotlib, numpy, pandas, sklearn",
+            "description":"It is necessary to predict whether the client will leave the bank in the near future or not. Provided historical data on customer behavior and termination of agreements with the bank. Construction of a model with an extremely large value of the F1-measure."
+          },
+          "item6":{
+            "header":"Customer Data Protection",
+            "stack":"Numpy, pandas, sklearn",
+            "description":"We need to protect the data of customers of the insurance company \"Though the Flood\". We will develop a data conversion method that makes it difficult to recover personal information from them. You need to protect the data so that the quality of the machine learning models does not deteriorate during the transformation."
+          },
             "smallProject":{
               "item1":{
                 "header":"Data analysis",
@@ -245,7 +265,7 @@
       "Footer": {
         "ggp": {
           "1" : "Geology",
-          "2": " Geophysics and",
+          "2": "Geophysics and",
           "3": "Petroleum Engineering"
         },
         "Contact": "Contact with me:"
